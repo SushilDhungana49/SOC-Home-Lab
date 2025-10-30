@@ -33,9 +33,7 @@ This project demonstrates a fully automated Security Operations Center (SOC) wor
 
 This diagram shows the flow of data from detection to notification.
 
-
-
-*(**Your action:** Create a simple diagram using a tool like `draw.io` or `Lucidchart`, export it as a `.png`, and add it to your `/screenshots/` folder. Then, replace the text above with a link to it.)*
+![Architecture Diagram](https://github.com/SushilDhungana49/SOC-Home-Lab/blob/f48ae2a52f45c2366ab48553381ab8332edb60f5/screenshots/Architecture%20Diagram.png)
 
 ---
 
@@ -61,7 +59,7 @@ A Wazuh server was deployed on a cloud provider (Oracle Cloud Infrastructure (OC
 
 The entire automation is handled by a Shuffle workflow.
 
-> **You can import the complete workflow from this file:** [`/shuffle_workflow/wazuh-vt-alert.json`](/shuffle_workflow/wazuh-vt-alert.json)
+![Shuffle Workflow](https://github.com/SushilDhungana49/SOC-Home-Lab/blob/f48ae2a52f45c2366ab48553381ab8332edb60f5/screenshots/Shuffle%20Workflow.png)
 
 The workflow performs the following steps:
 1.  **Wazuh Trigger:** Listens for new alerts from the Wazuh API.
