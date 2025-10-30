@@ -6,7 +6,7 @@ This project demonstrates a fully automated Security Operations Center (SOC) wor
 
 ## 📺 Demo
 
-![`Demogif`](/screenshots/Demo.gif)
+![Demo.gif](/screenshots/Demo.gif)
 
 ## 🚀 Features
 
