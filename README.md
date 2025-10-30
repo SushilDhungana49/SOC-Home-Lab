@@ -4,6 +4,10 @@ This project demonstrates a fully automated Security Operations Center (SOC) wor
 
 ---
 
+## 📺 Demo
+
+/screenshots/Demo.gif
+
 ## 🚀 Features
 
 * **Endpoint Detection:** Uses Wazuh and Sysmon to detect malicious file execution on a Windows 10 endpoint.
