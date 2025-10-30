@@ -1,0 +1,51 @@
+<style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; }
+    .container { width: 90%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
+    .header { font-size: 24px; color: #D9534F; }
+    .content-table { width: 100%; border-collapse: collapse; }
+    .content-table th, .content-table td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+    .content-table th { background-color: #f4f4f4; width: 30%; }
+    .links a { color: #0275d8; text-decoration: none; }
+</style>
+
+<div class="container">
+    <div class="header">🚨 High Priority Malware Alert</div>
+    <p>Automated detection of malware execution on an endpoint. Please investigate immediately.</p>
+
+    <table class="content-table">
+        <tr>
+            <th>Alert Level</th>
+            <td><b>$exec.all_fields.rule.level</b></td>
+        </tr>
+        <tr>
+            <th>Event Time (UTC)</th>
+            <td>$exec.text.win.system.systemTime</td>
+        </tr>
+        <tr>
+            <th>Hostname</th>
+            <td>$exec.text.win.system.computer</td>
+        </tr>
+        <tr>
+            <th>Agent's IP Address</th>
+            <td>$exec.all_fields.agent.ip</td>
+        </tr>
+        <tr>
+            <th>Affected User</th>
+            <td>$exec.all_fields.data.win.eventdata.user</td>
+        </tr>
+        <tr>
+            <th>File Name</th>
+            <td><code>$exec.text.win.eventdata.originalFileName</code></td>
+        </tr>
+        <tr>
+            <th>File Hashes</th>
+            <td><code>$exec.all_fields.full_log.win.eventdata.hashes</code></td>
+        </tr>
+         <tr>
+            <th>Detection Source</th>
+            <td>$exec.text.win.system.providerName</td>
+        </tr>
+    </table>
+
+    <hr>
+    </div>
