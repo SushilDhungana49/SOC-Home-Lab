@@ -6,7 +6,9 @@ This project demonstrates a fully automated Security Operations Center (SOC) wor
 
 ## 📺 Demo
 
-![Demo.gif](https://github.com/SushilDhungana49/SOC-Home-Lab/blob/24114e0bd114f3939542c92448259cf3f24748ea/screenshots/Demo.gif)
+![Demo.gif]([https://github.com/SushilDhungana49/SOC-Home-Lab/blob/24114e0bd114f3939542c92448259cf3f24748ea/screenshots/Demo.gif](https://imgur.com/gXOHyJv))
+
+---
 
 ## 🚀 Features
 
